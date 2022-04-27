@@ -1,0 +1,89 @@
+<template lang="">
+  <div>
+    <div class="p-6">
+      <div
+        class="inline-flex items-center justify-center flex-shrink-0 w-12 h-12 mx-auto mb-5 text-gray-700 rounded-full bg-blue-50"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="w-6 h-6 icon icon-tabler icon-tabler-aperture"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <circle cx="12" cy="12" r="9"></circle>
+          <line x1="3.6" y1="15" x2="14.15" y2="15"></line>
+          <line
+            x1="3.6"
+            y1="15"
+            x2="14.15"
+            y2="15"
+            transform="rotate(72 12 12)"
+          ></line>
+          <line
+            x1="3.6"
+            y1="15"
+            x2="14.15"
+            y2="15"
+            transform="rotate(144 12 12)"
+          ></line>
+          <line
+            x1="3.6"
+            y1="15"
+            x2="14.15"
+            y2="15"
+            transform="rotate(216 12 12)"
+          ></line>
+          <line
+            x1="3.6"
+            y1="15"
+            x2="14.15"
+            y2="15"
+            transform="rotate(288 12 12)"
+          ></line>
+        </svg>
+      </div>
+      <h1
+        class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-600 lg:text-3xl"
+      >
+        Short length headline.
+      </h1>
+      <p class="mx-auto text-base leading-relaxed text-gray-500">
+        Free and Premium themes, UI Kit's, templates and landing pages built
+        with Tailwind CSS, HTML &amp; Next.js.
+      </p>
+      <div class="mt-4">
+        <a
+          class="mr-2 text-gray-100 cursor-pointer dark:text-gray-100 hover:text-orange-500 dark:hover:text-gray-300"
+        >
+          <svg
+            class="w-5 h-5 fill-current"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.8283 12L16.2426 13.4142L19.071 10.5858C20.6331 9.02365 20.6331 6.49099 19.071 4.9289C17.5089 3.3668 14.9762 3.3668 13.4141 4.9289L10.5857 7.75732L11.9999 9.17154L14.8283 6.34311C15.6094 5.56206 16.8757 5.56206 17.6568 6.34311C18.4378 7.12416 18.4378 8.39049 17.6568 9.17154L14.8283 12Z"
+            />
+            <path
+              d="M12 14.8285L13.4142 16.2427L10.5858 19.0711C9.02365 20.6332 6.49099 20.6332 4.9289 19.0711C3.3668 17.509 3.3668 14.9764 4.9289 13.4143L7.75732 10.5858L9.17154 12L6.34311 14.8285C5.56206 15.6095 5.56206 16.8758 6.34311 17.6569C7.12416 18.4379 8.39049 18.4379 9.17154 17.6569L12 14.8285Z"
+            />
+            <path
+              d="M14.8284 10.5857C15.2189 10.1952 15.2189 9.56199 14.8284 9.17147C14.4379 8.78094 13.8047 8.78094 13.4142 9.17147L9.17154 13.4141C8.78101 13.8046 8.78101 14.4378 9.17154 14.8283C9.56206 15.2188 10.1952 15.2188 10.5857 14.8283L14.8284 10.5857Z"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+export default {};
+</script>
+<style lang=""></style>
