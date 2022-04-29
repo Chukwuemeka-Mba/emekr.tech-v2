@@ -1,5 +1,12 @@
 <template lang="">
-  <div></div>
+  <main>
+    <section class="nav">
+      <TheNavbar />
+    </section>
+    <section class="footer">
+      <TheFooter />
+    </section>
+  </main>
 </template>
 <script>
 export default {};

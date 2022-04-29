@@ -26,13 +26,19 @@
             >
               <ul class="flex-row flex gap-5">
                 <li class="text-white-60">
-                  <font-awesome-icon icon="fa-regular fa-lightbulb" class="" />
+                  <nuxt-link to="/">
+                    <font-awesome-icon icon="fa-regular fa-lightbulb" class=""
+                  /></nuxt-link>
                 </li>
                 <li class="text-white-60">
-                  <font-awesome-icon icon="paperclip" class="" />
+                  <nuxt-link to="/code">
+                    <font-awesome-icon icon="code" class=""
+                  /></nuxt-link>
                 </li>
                 <li class="text-white-60">
-                  <font-awesome-icon icon="code" class="" />
+                  <nuxt-link to="/articles">
+                    <font-awesome-icon icon="paperclip" class=""
+                  /></nuxt-link>
                 </li>
                 <li class="text-white-60" @click="open == !open">
                   <font-awesome-icon
@@ -55,20 +61,18 @@
             <div id="links" class="nav-links">
               <a
                 class="px-4 py-2 mt-2 text-sm text-gray-50 md:mt-0 font-bold hover:text-orange-300 focus:outline-none focus:shadow-outline"
-                href="#question"
+                href="/"
                 >About</a
               >
-
               <a
                 class="px-4 py-2 mt-2 text-sm text-gray-50 md:mt-0 font-bold hover:text-orange-300 focus:outline-none focus:shadow-outline"
-                href="#services"
-                >Services</a
+                href="/code"
+                >Code</a
               >
-
               <a
                 class="px-4 py-2 mt-2 text-sm text-gray-50 md:mt-0 font-bold hover:text-orange-300 focus:outline-none focus:shadow-outline"
-                href="#works"
-                >Works</a
+                href="/articles"
+                >Writings</a
               >
 
               <a

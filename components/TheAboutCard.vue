@@ -17,10 +17,13 @@
               >
             </div>
             <div class="prose md:flex-grow prose-md">
-              <h2 class="text-lg font-bold py-5">
-                Hey, I'm Emeka. A component obsessed and finance focused
+              <h1 class="text-xl font-bold py-5">
+                Hey, I'm Emeka. A
+                <span class="hover:text-yellow-500">component obsessed</span>
+                and
+                <span class="hover:text-yellow-500">finance focused</span>
                 frontend engineer working at Acumen.
-              </h2>
+              </h1>
               <p class="my-5">
                 Creator of Vitest, Slidev, VueUse, UnoCSS, Type Challenges and
                 others. Core team member of Vue, Nuxt and Vite. Team member of
