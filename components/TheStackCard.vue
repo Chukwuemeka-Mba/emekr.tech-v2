@@ -1,7 +1,7 @@
 <template>
   <div
     :class="{
-      'stack-card-ctn bg-black text-white': true,
+      'stack-card-ctn bg-black text-white cursor-pointer': true,
       active: stack.type === active,
       faded: active !== stack.type && active !== '',
     }"

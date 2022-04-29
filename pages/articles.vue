@@ -3,6 +3,9 @@
     <section class="nav">
       <TheNavbar />
     </section>
+    <section class="content">
+      <TheArticles />
+    </section>
     <section class="footer">
       <TheFooter />
     </section>
