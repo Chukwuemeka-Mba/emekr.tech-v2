@@ -63,7 +63,7 @@
           >
             <font-awesome-icon
               icon="fa-brands fa-github"
-              class="icon-link text-purple-300 hover:text-purple-500"
+              class="icon-link text-blue-400 hover:text-blue-500"
             />
           </a>
           <a class="mx-2" href="https://www.linkedin.com/in/emekamba">
@@ -75,13 +75,12 @@
         </div>
         <div class="text-gray-50 flex justify-center mx-20">
           <span class="text-md emekr">
-            Copyright © 2022
             <a
               href="http://www.emekr.tech"
-              class="emekr text-md mx-2 text-white hover:text-gray-100"
+              class="emekr text-xl mx-2 text-white hover:text-gray-100"
               rel="noopener noreferrer"
-              >@emekr.techHQ</a
-            >
+              >Built in 3 days. By Emeka | </a
+            >Copyright © 2022
           </span>
         </div>
       </div>

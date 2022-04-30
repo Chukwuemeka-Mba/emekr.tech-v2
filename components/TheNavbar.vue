@@ -58,25 +58,25 @@
             :class="{ flex: open, hidden: !open }"
             class="links-container flex-col items-center flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row sm:hidden lg:border-l-2 lg:pl-2 hidden"
           >
-            <div id="links" class="nav-links">
+            <div id="links" class="nav-links font-thin">
               <a
-                class="px-4 py-2 mt-2 text-sm text-gray-50 md:mt-0 font-bold hover:text-orange-300 focus:outline-none focus:shadow-outline"
+                class="px-4 py-2 mt-2 font-thin text-md text-white md:mt-0 hover:text-gray-300 focus:outline-none focus:shadow-outline"
                 href="/"
                 >About</a
               >
               <a
-                class="px-4 py-2 mt-2 text-sm text-gray-50 md:mt-0 font-bold hover:text-orange-300 focus:outline-none focus:shadow-outline"
+                class="px-4 py-2 mt-2 text-white md:mt-0 font-thin hover:text-gray-300 focus:outline-none focus:shadow-outline"
                 href="/code"
                 >Code</a
               >
               <a
-                class="px-4 py-2 mt-2 text-sm text-gray-50 md:mt-0 font-bold hover:text-orange-300 focus:outline-none focus:shadow-outline"
+                class="px-4 py-2 mt-2 text-md text-white md:mt-0 font-thin hover:text-gray-300 focus:outline-none focus:shadow-outline"
                 href="/articles"
                 >Writings</a
               >
 
               <a
-                class="px-4 py-2 mt-2 text-sm text-gray-50 md:mt-0 font-bold hover:text-orange-300 focus:outline-none focus:shadow-outline"
+                class="px-4 py-2 mt-2 text-md text-white md:mt-0 font-thin hover:text-gray-300 focus:outline-none focus:shadow-outline"
                 href="#contact"
                 >Contact</a
               >

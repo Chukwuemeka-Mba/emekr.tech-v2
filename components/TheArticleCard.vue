@@ -1,211 +1,48 @@
 <template lang="">
   <main>
-    <section class="bg-black">
+    <a :href="article.link">
       <div
-        class="container flex flex-col items-center px-5 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8"
+        class="flex cursor-pointer bg-black flex-col items-center pb-10 mx-auto py-10 border-b border-gray-200 max-w-3xl sm:flex-row"
       >
         <div
-          class="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue"
+          class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10"
         >
-          <div class="w-full text-white mx-auto">
-            <h1 class="text-lg font-light my-3">Featured Articles</h1>
-            <a
-              href="http://medium.com/@reallifenero"
-              class="hover:text-gray-400"
-              ><span>Medium</span></a
-            >
-            <a
-              href="http://screwfaceletters.substack.com"
-              class="hover:text-yellow-600 mx-2"
-              ><span>Substack</span></a
-            >
-            <a href="http://dev.to" class="hover:text-blue-400 mx-2"
-              ><span>Dev.to</span></a
-            >
-          </div>
+          <img
+            :src="require(`~/assets/images/${article.img}`)"
+            class="image"
+            alt=""
+          />
         </div>
         <div
-          class="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row"
+          class="text-whiteflex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md"
         >
-          <div
-            class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
-              class="w-10 h-10"
-              viewBox="0 0 24 24"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <circle cx="12" cy="12" r="9"></circle>
-              <line x1="3.6" y1="15" x2="14.15" y2="15"></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(72 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(144 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(216 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(288 12 12)"
-              ></line>
-            </svg>
-          </div>
-          <div
-            class="flex-grow text-white mt-6 prose text-center sm:text-left sm:mt-0 prose-md"
-          >
-            <h2>Short length headline.</h2>
-            <p>
-              Free and Premium themes, UI Kit's, templates and landing pages
-              built with Tailwind CSS, HTML &amp; Next.js.
-            </p>
-            <div class="my-5">
-              <font-awesome-icon icon="heart" class="mt-2" /> <span>12</span>
-            </div>
-          </div>
-        </div>
-        <div
-          class="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row"
-        >
-          <div
-            class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
-              class="w-10 h-10"
-              viewBox="0 0 24 24"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <circle cx="12" cy="12" r="9"></circle>
-              <line x1="3.6" y1="15" x2="14.15" y2="15"></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(72 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(144 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(216 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(288 12 12)"
-              ></line>
-            </svg>
-          </div>
-          <div
-            class="text-white flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md"
-          >
-            <h2>Short length headline.</h2>
-            <p>
-              Free and Premium themes, UI Kit's, templates and landing pages
-              built with Tailwind CSS, HTML &amp; Next.js.
-            </p>
-          </div>
-        </div>
-        <div
-          class="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row"
-        >
-          <div
-            class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
-              class="w-10 h-10"
-              viewBox="0 0 24 24"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <circle cx="12" cy="12" r="9"></circle>
-              <line x1="3.6" y1="15" x2="14.15" y2="15"></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(72 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(144 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(216 12 12)"
-              ></line>
-              <line
-                x1="3.6"
-                y1="15"
-                x2="14.15"
-                y2="15"
-                transform="rotate(288 12 12)"
-              ></line>
-            </svg>
-          </div>
-          <div
-            class="text-white flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md"
-          >
-            <h2>Short length headline.</h2>
-            <p>
-              Free and Premium themes, UI Kit's, templates and landing pages
-              built with Tailwind CSS, HTML &amp; Next.js.
-            </p>
-          </div>
+          <h2 class="text-gray-200 text-xl font-light">{{ article.name }}</h2>
+          <p class="text-gray-400 text-sm mt-5 font-light">
+            {{ article.desc }}
+          </p>
+          <span class="flex flex-row gap-5 mt-5">
+            <a :href="article.link"
+              ><font-awesome-icon icon="link" class="text-white"
+            /></a>
+            <p class="text-gray-300">{{ article.platform }}</p>
+            <p class="text-gray-300">{{ article.published }}</p>
+          </span>
         </div>
       </div>
-    </section>
+    </a>
   </main>
 </template>
 <script>
-export default {};
+export default {
+  props: {
+    article: Object,
+  },
+};
 </script>
-<style lang=""></style>
+<style lang="scss" scoped>
+.image {
+  width: 80px;
+  height: 80px;
+  border-radius: 62px;
+}
+</style>

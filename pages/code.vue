@@ -5,21 +5,21 @@
     </section>
     <section class="challenges">
       <h1
-        class="text-xl font-light text-left mx-10 lg:mx-20 py-16 text-gray-50"
+        class="text-3xl font-thin text-left mx-20 lg:mx-20 pt-16 text-gray-50"
       >
         Work Experience
       </h1>
       <TheExperiences />
     </section>
     <section class="stack d-flex justify-center text-center">
-      <h1 class="text-xl font-light text-left ml-20 my-10 text-gray-50">
+      <h1 class="text-3xl font-thin text-left ml-20 my-10 text-gray-50">
         Tech Stack
       </h1>
       <TheStackSection />
     </section>
 
     <section class="challenges mx-20 my-10">
-      <h1 class="text-xl font-light text-left my-10 text-gray-50">Projects</h1>
+      <h1 class="text-3xl font-thin text-left my-10 text-gray-50">Projects</h1>
       <TheProjects />
     </section>
     <section class="footer">

@@ -1,15 +1,22 @@
 <template lang="">
   <main
-    class="relative items-center w-full px-5 py-12 md:px-12 lg:px-24 max-w-7xl"
+    class="relative grid sm:grid-cols-2 lg:grid-cols-auto items-center ml-20 sm:ml-20 pb-12 md:px-12"
   >
-    <div class="grid w-full grid-cols-1 gap-12 mx-auto lg:grid-cols-3">
-      <TheExperienceCard />
-      <TheExperienceCard />
-      <TheExperienceCard />
+    <div
+      class="grid grid-cols-1 gap-12 mx-auto justify-center align-middle lg:text-center"
+      v-for="experience in experiences"
+    >
+      <TheExperienceCard :experience="experience" />
     </div>
   </main>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      experiences: this.$store.state.experiences,
+    };
+  },
+};
 </script>
 <style lang=""></style>
