@@ -195,7 +195,7 @@ export const state = () => ({
       company: "MLH Fellowship",
       position: "Software Engineering Prep Fellow",
       img: "mlh.png",
-      desc: "Built a portfolio of open-source projects with 13 other fellows using various frameworks like Rust, Jekyll, and React Js. 	Built a portfolio website, and weather application with Jekyll and React Respectively.",
+      desc: "Built open-source projects with 13 fellows using  frameworks like Rust, Jekyll, and React Js. 	Built a portfolio website, and weather application with Jekyll and React Respectively.",
       compUrl: "https://fellowship.mlh.io",
       location: "United States | Remote",
     },

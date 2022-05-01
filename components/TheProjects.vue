@@ -1,8 +1,8 @@
 <template lang="">
   <main>
     <section class="md:overflow-x-scroll">
-      <div class="container mx-auto md:px-20 max-w-7xl">
-        <div class="flex flex-row flex-wrap mx-auto md:flex-nowrap lg:px-24">
+      <div class="container mx-auto max-w-7xl">
+        <div class="flex flex-row flex-wrap md:flex-nowrap lg:px-20">
           <div v-for="project in projects">
             <TheProjectCard :project="project" />
           </div>

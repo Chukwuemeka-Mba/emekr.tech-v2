@@ -43,7 +43,8 @@
               <p class="my-5 text-gray-400">
                 Outside of programming, I enjoy dancing and disk-jockeying. If
                 you happen to be in the same city I live (currently in Boston),
-                maybe we can hang out, dance or code together.
+                I can probably show you some moves or we can build something
+                together.
               </p>
             </div>
           </div>

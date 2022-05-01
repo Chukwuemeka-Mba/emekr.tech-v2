@@ -8,7 +8,7 @@
           class="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue"
         >
           <div class="w-full text-white mx-auto">
-            <h1 class="text-lg font-light my-3">Featured Articles</h1>
+            <h1 class="text-3xl font-thin my-3">Featured Articles</h1>
             <a href="http://medium.com/@reallifenero" class="text-gray-400"
               ><span>Medium</span></a
             >
