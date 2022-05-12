@@ -16,7 +16,7 @@
                 <span class="text-sm"></span>
               </strong>
               <span
-                class="mt-1 text-lg font-normal leading-relaxed text-gray-500"
+                class="mt-1 text-lg font-normal leading-relaxed text-gray-400"
                 >Emeka Mba.</span
               >
             </div>
@@ -24,23 +24,20 @@
               <h1 class="text-xl font-bold py-5">
                 Hey, I'm Emeka. <br />
                 A
-                <span class="text-blue-500"> finance focused</span>
+                <span class="text-blue-500">design focused</span>
                 frontend engineer, currently working at Acumen.
               </h1>
-              <p class="my-5 text-gray-400">
-                I try to make complex things simple by writing, designing and
+              <p class="my-5 text-gray-200">
+                I try to simplify complex things by writing, designing and
                 engineering to solve problems, build companies and help people.
               </p>
-              <p class="my-5 text-gray-400">
+              <p class="my-5 text-gray-200">
                 Dreaming up ideas and making them come true is where my passion
-                lies. You can find my full projects list
-                <a href="https://github.com/Chukwuemeka-Mba?tab=repositories"
-                  >here</a
-                >.. I like trying out new things and i'm always looking to
-                collaborate on building the next feasible Billion Dollar
+                lies.I like trying out new things and i'm always looking to
+                collaborate on building the next feasible million dollar
                 business idea.
               </p>
-              <p class="my-5 text-gray-400">
+              <p class="my-5 text-gray-200">
                 Outside of programming, I enjoy dancing and disk-jockeying. If
                 you happen to be in the same city I live (currently in Boston),
                 I can probably show you some moves or we can build something
