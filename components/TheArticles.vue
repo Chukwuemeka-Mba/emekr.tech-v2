@@ -17,7 +17,7 @@
               class="text-gray-400 mx-2"
               ><span>Substack</span></a
             >
-            <a href="http://dev.to" class="text-gray-400 mx-2"
+            <a href="https://dev.to/reallifenero" class="text-gray-400 mx-2"
               ><span>Dev.to</span></a
             >
           </div>

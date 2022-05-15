@@ -221,6 +221,24 @@ export const state = () => ({
   articles: [
     {
       id: 1,
+      name: "User authentication with Axios, Vue Js and Nuxt Js.",
+      platform: "Dev.to",
+      img: "nuxt-auth.webp",
+      desc: "Learn how to perform user authentication with axios vue js and nuxt js",
+      link: "https://dev.to/reallifenero/user-authentication-with-axios-vue-js-and-nuxt-js-2o9d",
+      published: "2022",
+    },
+    {
+      id: 2,
+      name: "Education, Enlightenment and Suffering",
+      platform: "Linkedin | Medium",
+      img: "ees.jpg",
+      desc: "Much of our suffering stems from sticking to old ways of solving problems. We are so obsessed with doing things ‘right’. We look for one definition that can fit all scenarios so we won’t have to perform mental calisthenics when faced with a new problem. In our unreasonable bid to simplify life, we fail to realize that — as one of my mentors: Ryan Holiday puts it — “what is right is what works”.",
+      link: "https://www.linkedin.com/posts/emekamba_education-enlightenment-and-suffering-activity-6709006084142624768-Enl3?utm_source=linkedin_share&utm_medium=member_desktop_web",
+      published: "2020",
+    },
+    {
+      id: 3,
       name: "How to become a whore",
       platform: "Substack",
       img: "whore.png",
@@ -229,7 +247,7 @@ export const state = () => ({
       published: "2022",
     },
     {
-      id: 2,
+      id: 4,
       name: "Are you you, or are you them",
       platform: "Medium",
       img: "feminism.jpg",
@@ -238,22 +256,13 @@ export const state = () => ({
       published: "2021",
     },
     {
-      id: 3,
+      id: 5,
       name: "Pathemata Mathemata - Guide your learning through pain.",
       platform: "Substack",
       img: "pain.png",
       desc: "One of society’s problems is the fact that we are very much eager to share the stories of successful 20% whilst ignoring bottom 80%. But the unflattering truth of life is that most of history is filled with astronomical failures. Successes were the exception, not the rule. But we chose to ignore this fact and exactly how does it end?",
       link: "https://screwfaceletters.substack.com/p/reading-recommendations-for-september?s=r",
       published: "2021",
-    },
-    {
-      id: 4,
-      name: "Education, Enlightenment and Suffering",
-      platform: "Linkedin | Medium",
-      img: "ees.jpg",
-      desc: "Much of our suffering stems from sticking to old ways of solving problems. We are so obsessed with doing things ‘right’. We look for one definition that can fit all scenarios so we won’t have to perform mental calisthenics when faced with a new problem. In our unreasonable bid to simplify life, we fail to realize that — as one of my mentors: Ryan Holiday puts it — “what is right is what works”.",
-      link: "https://www.linkedin.com/posts/emekamba_education-enlightenment-and-suffering-activity-6709006084142624768-Enl3?utm_source=linkedin_share&utm_medium=member_desktop_web",
-      published: "2020",
     },
   ],
 });

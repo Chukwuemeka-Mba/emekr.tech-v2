@@ -25,12 +25,12 @@
                     id="contact"
                     class="text-xs font-semibold mr-5 tracking-wider text-gray-100 uppercase"
                   >
-                    Contact Me
+                    Hire Me !
                   </h3>
                   <font-awesome-icon icon="envelope" />
                 </a>
                 <p class="mt-4 text-xs text-gray-400 lg:ml-auto">
-                  Expect a reply in 3 business days.
+                  Expect a reply before your mom gets home.
                 </p>
               </div>
             </div>
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div
-        class="px-5 py-12 md:px-12 bg-black-500 max-w-7xl sm:px-6 md:flex lg:px-20 xl:px-20"
+        class="px-5 py-12 md:px-12 bg-black-500 max-w-7xl sm:px-6 md:flex lg:px-20 lg:pb-20 xl:px-20"
       >
         <div class="flex justify-center mb-2 space-x-6 md:order-first md:mb-0">
           <a
@@ -76,10 +76,10 @@
         <div class="text-gray-50 flex justify-center mx-20">
           <span class="text-md emekr">
             <a
-              href="http://www.emekr.tech"
+              href="https://github.com/Chukwuemeka-Mba"
               class="emekr text-xl mx-2 text-white hover:text-gray-100"
               rel="noopener noreferrer"
-              >Built in 3 days. By Emeka | </a
+              >Built By Emeka | </a
             >Copyright © 2022
           </span>
         </div>
