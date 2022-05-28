@@ -80,8 +80,8 @@
 
               <a
                 class="px-4 py-2 mt-2 text-md text-white md:mt-0 font-thin hover:text-gray-300 focus:outline-none focus:shadow-outline"
-                href="#contact"
-                >Contact</a
+                href="https://docs.google.com/document/d/1O6Pw30G0fZLhPqbr1k6YSO8H1nIqjfnpmDj81nHuI7c/edit#"
+                >Resume</a
               >
             </div>
           </nav>
