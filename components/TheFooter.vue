@@ -72,6 +72,14 @@
               class="text-blue-400 hover:text-blue-500"
             />
           </a>
+          <a href="https://nike.com/nrc-app">
+            <img
+              src="~assets/images/nrc.jpg"
+              alt=""
+              width="15"
+              style="padding-bottom: 7px"
+            />
+          </a>
         </div>
         <div class="text-gray-50 flex justify-center mx-20">
           <span class="text-md emekr">

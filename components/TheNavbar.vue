@@ -37,15 +37,18 @@
                 </li>
                 <li class="text-white-60">
                   <nuxt-link to="/articles">
-                    <font-awesome-icon icon="paperclip" class=""
+                    <font-awesome-icon icon="pen-fancy" class=""
                   /></nuxt-link>
                 </li>
                 <li class="text-white-60" @click="open == !open">
+                  <a
+                    href="https://docs.google.com/document/d/1O6Pw30G0fZLhPqbr1k6YSO8H1nIqjfnpmDj81nHuI7c/edit#"
+                    ><font-awesome-icon
+                      icon="note-sticky"
+                      class=""
+                      v-show="(open = true)"
+                  /></a>
                   <font-awesome-icon
-                    icon=" fa-regular fa-moon"
-                    class=""
-                    v-show="(open = true)"
-                  /><font-awesome-icon
                     icon=" fa-regular fa-sun"
                     class=""
                     v-show="(open = false)"
@@ -67,12 +70,12 @@
               <a
                 class="px-4 py-2 mt-2 text-white md:mt-0 font-thin hover:text-gray-300 focus:outline-none focus:shadow-outline"
                 href="/code"
-                >Code</a
+                >Work</a
               >
               <a
                 class="px-4 py-2 mt-2 text-md text-white md:mt-0 font-thin hover:text-gray-300 focus:outline-none focus:shadow-outline"
                 href="/articles"
-                >Writings</a
+                >Articles</a
               >
 
               <a

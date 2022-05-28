@@ -24,22 +24,24 @@
               <h1 class="text-xl font-medium py-5">
                 Hey, I'm Emeka. <br />
                 A
-                <span class="text-gray-500">design focused</span>
-                software engineer, currently working at Acumen.
+                <span class="text-gray-500">finance focused</span>
+                frontend engineer, currently working at Acumen.
               </h1>
-              <p class="my-5 font-thin text-gray-200">
+              <p class="my-5 font-normal text-gray-200">
                 I try to simplify complex things by writing, designing and
                 engineering to solve problems, build companies and help people.
               </p>
-              <p class="my-5 font-thin text-gray-200">
+              <p class="my-5 font-normal text-gray-200">
                 My passion lies in conjuring ideas and sculpting them into
                 reality with code. I'm always looking to collaborate on building
                 interesting projects.
               </p>
-              <p class="my-5 font-thin text-gray-200">
-                Outside of programming, I enjoy running and disk-jockeying. If
-                you happen to be in the same city I live (currently in Boston),
-                we can probably run some laps or build something cool together.
+              <p class="my-5 font-normal text-gray-200">
+                Outside of programming, I enjoy running and disk-jockeying.
+                <br />
+                If you happen to be in the same city I live (currently in
+                Boston), hit me up and we can run some laps or build something
+                interesting together.
               </p>
             </div>
           </div>
