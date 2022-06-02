@@ -190,12 +190,21 @@ export const state = () => ({
     },
     {
       id: 5,
+      name: "Spotify Clone",
+      img: "spotify.png",
+      desc: "Spotify clone built with React Js and Styled components. State management done with useReducer hook.",
+      stack: "Nuxt Js, Scss",
+      liveUrl: "https://emeka-spotify-clone.netlify.app/",
+      githubUrl: "https://github.com/Chukwuemeka-Mba/spotify-clone",
+    },
+    {
+      id: 6,
       name: "Yield Finance",
       img: "yield.png",
-      desc: "Make payments, browse cryptocurrencies, satisty customers with Yield Fi.",
+      desc: "Crypto market data from coingecko api. Integrated the flutterwave payments sdk into the application for payments.",
       stack: "Nuxt Js, Scss",
       liveUrl: "http://yield-finance.netlify.app/",
-      githubUrl: "https://github.com/Chukwuemeka-Mba/yem-reviews",
+      githubUrl: "https://github.com/Chukwuemeka-Mba/yieldfi",
     },
   ],
   experiences: [
