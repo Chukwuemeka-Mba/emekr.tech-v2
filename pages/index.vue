@@ -46,7 +46,7 @@ export default {
 .main {
   .footer {
     position: relative;
-    bottom: 0px;
+    bottom: 00px;
     width: 100%;
   }
   .work-mobile {
