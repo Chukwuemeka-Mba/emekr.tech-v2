@@ -206,6 +206,15 @@ export const state = () => ({
       liveUrl: "http://yield-finance.netlify.app/",
       githubUrl: "https://github.com/Chukwuemeka-Mba/yieldfi",
     },
+    {
+      id: 6,
+      name: "Tesla Website Clone",
+      img: "tesla.png",
+      desc: "Decided to flex my awesomeness so i built the tesla landing page with react js, redux and styled components. ",
+      stack: "React Js, Redux, Styled Components",
+      liveUrl: "https://chukwuemeka-mba.github.io/tesla-clone/",
+      githubUrl: "https://github.com/Chukwuemeka-Mba/tesla-clone",
+    },
   ],
   experiences: [
     {
