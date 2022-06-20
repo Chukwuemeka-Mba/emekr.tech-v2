@@ -7,6 +7,12 @@
       <TheAboutCard />
     </section>
     <div class="work-mobile bg-black text-white">
+      <section class="challenges mx-10">
+        <h1 class="text-3xl font-thin text-left my-10 text-gray-50">
+          Projects
+        </h1>
+        <TheProjects />
+      </section>
       <section class="challenges">
         <h1
           class="text-3xl font-thin text-left mx-10 lg:mx-20 pt-16 text-gray-50"
@@ -20,13 +26,6 @@
           Tech Stack
         </h1>
         <TheStackSection />
-      </section>
-
-      <section class="challenges mx-10">
-        <h1 class="text-3xl font-thin text-left my-10 text-gray-50">
-          Projects
-        </h1>
-        <TheProjects />
       </section>
     </div>
     <section class="footer">

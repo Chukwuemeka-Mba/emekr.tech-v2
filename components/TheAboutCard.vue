@@ -10,7 +10,7 @@
               <strong
                 class="flex text-3xl font-thin leading-none text-left text-thin lg:text-4xl"
               >
-                {{ month }} {{ year }} | {{ hours }}:{{
+                {{ date }} {{ month }} | {{ hours }}:{{
                   minutes < 10 ? "0" + minutes : minutes
                 }}
                 <span class="text-sm"></span>
@@ -36,13 +36,6 @@
                 reality with code. I'm always looking to collaborate on building
                 interesting projects.
               </p>
-              <p class="my-5 font-normal text-gray-200">
-                Outside of programming, I enjoy running and disk-jockeying.
-                <br />
-                If you happen to be in the same city I live (currently in
-                Boston), hit me up and we can run some laps or build something
-                interesting together.
-              </p>
             </div>
           </div>
         </div>
@@ -57,6 +50,8 @@ export default {
       month: "",
       year: "",
       time: "",
+      day: "",
+      date: "",
     };
   },
   created: function () {
@@ -65,6 +60,8 @@ export default {
     this.year = newDate.getFullYear();
     this.hours = newDate.getHours();
     this.minutes = newDate.getMinutes();
+    this.day = newDate.getUTCDay();
+    this.date = newDate.getDate();
   },
 };
 </script>
