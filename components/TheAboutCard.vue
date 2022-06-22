@@ -36,6 +36,12 @@
                 reality with code. I'm always looking to collaborate on building
                 interesting projects.
               </p>
+              <p>
+                Take a look at some of my
+                <span class="text-blue-500 underline"
+                  ><nuxt-link to="/code">projects</nuxt-link>.</span
+                >
+              </p>
             </div>
           </div>
         </div>

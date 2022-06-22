@@ -25,9 +25,10 @@
                     id="contact"
                     class="text-xs font-semibold mr-5 tracking-wider text-gray-100 uppercase"
                   >
-                    Hire Me !
+                    Want to build something cool ?
+                    <font-awesome-icon class="ml-5" icon="arrow-right" />
                   </h3>
-                  <font-awesome-icon icon="envelope" />
+                  <font-awesome-icon class="text-blue-200" icon="envelope" />
                 </a>
                 <p class="mt-4 text-xs text-gray-400 lg:ml-auto">
                   Expect a reply before your mom gets home.

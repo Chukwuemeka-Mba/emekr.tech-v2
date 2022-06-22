@@ -43,6 +43,11 @@ export default {
 </script>
 <style lang="scss" scoped>
 .main {
+  .about {
+    @media screen and (min-width: 800px) {
+      height: 50vh;
+    }
+  }
   .footer {
     position: relative;
     bottom: 00px;
